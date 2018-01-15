@@ -20,7 +20,7 @@ new Vue({
   render: h => h(App)
   {{/if_eq}}
   {{#if_eq build "standalone"}}
-  components: { App },
-  template: '<App/>'
+  template: '<App/>',
+  components: { App }
   {{/if_eq}}
 })
